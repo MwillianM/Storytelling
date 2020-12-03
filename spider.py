@@ -2,16 +2,11 @@ import tweepy
 import json
 import csv
 import time
-'''
-access_token = "1045030220330397696-EkwpeLpmvtVaC4iCs4r2PUs5tPqPuH"
-access_token_secret = "v0ScjA2RfGZnupEBwdhXYWqkIBu8lLB6Y60LnJj5gElpL"
-consumer_key = "xlPOZAuQoeVDsXzoBck3b0tzp"
-consumer_secret = "cDGnkfJRsZgq60Emp3OYEcle6LldwRqHtXzmj7sZqeZQovvKZi"
-'''
-access_token = "1045030220330397696-8CEACVDpQqVzwdnG8zpKSbGeeGnzXE"
-access_token_secret = "0NEOIIu4nWlPd2zgrcmnKO2CGjcuUM1p4hwBeKzHIV9Bs"
-consumer_key = "3TfPrLsXtI4UDy46vC3IMmFj8"
-consumer_secret = "4bQoC405SBbNfriw784WooY7ZkuE77di18LF2StyXUI07Goqmv"
+
+access_token = "example"
+access_token_secret = "example"
+consumer_key = "example"
+consumer_secret = "example"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
